@@ -1,0 +1,15 @@
+#include<iostream>//Libreria de cabecera
+using namespace std;
+// Ejemplo de for: tabla de multiplicar
+int main(){
+	int cont;
+	int ntabla;
+	cout << "Dime el numero a multiplicar: ";
+	cin >> ntabla;
+	cout << "TABLA DEL " << ntabla << endl;
+	for(cont=1;cont<=10;cont++){
+		cout << ntabla << "x" << cont << "=" <<ntabla*cont<<endl;
+	}
+}
+	
+	
