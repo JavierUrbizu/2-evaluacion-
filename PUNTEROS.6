@@ -1,0 +1,14 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main(){
+	char letra []= "historia";
+	int cont;
+	for (cont=0;cont<=7;cont++){//%s es todas las letras /deltreo)
+		printf("Dame la letra[%d]=%c en la posicion= %x\n",cont,*(letra+cont),&letra[cont]);
+		//%x es donde estan guardadas en la memoria //el *antes del () es como un []
+	} //hace lo mismo que punteros 6
+	printf("letra=%s\n",letra);
+	printf("letra=%x",letra);	
+	return 0;	
+}
