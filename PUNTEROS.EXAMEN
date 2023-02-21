@@ -1,0 +1,21 @@
+#include<iostream>
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h> //Libreria para uncluir tiempo 
+//Este programa genera una matriz 3x3 rellena de numeros enteros entre 0-9 con repetici�n
+using namespace std;
+int main(){
+	long semilla; 
+	semilla=time(0);
+	int filas;
+	int columna;
+	int *matriz[3];//declaramos que tiene tres columnas
+	srand(semilla); 
+	for(filas=0;filas<3;filas++){ //Reservo memoria para filas
+		matriz[filas]=(int*)malloc(3*sizeof(int));
+		for(columna=0;columna<3;columna++){
+			//*(matriz+filas)+col=rand()%10; //el %10 es para que el numero sea entre 0 y 9 
+		}
+	}
+	return 0; 
+}
