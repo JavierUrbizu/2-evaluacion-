@@ -1,0 +1,40 @@
+//Instrucciones b�sicas 
+#include<iostream>//Librer�a de cabecera
+using namespace std;
+//Condicional m�ltiple 
+int main(){
+
+	int resp;
+	cout<<"*******************"<<endl;
+	cout<<"    *    MENU   *   "<<endl;
+	cout<<"********************"<<endl;
+	cout<<"1.Volver a mostrar el menu ";
+	cout<<"2.Despedirme"<<endl;
+	cout<<"3.salir"<<endl;
+	cout<<"ELIGE UNA OPCION(1,2,3,)";
+	cin>>resp;
+	switch(resp){
+	
+		case 1:
+			cout<<"*******************"<<endl;
+			cout<<"    *    MENU   *   "<<endl;
+			cout<<"********************"<<endl;
+			cout<<"1.Volver a mostrar el menu ";
+			cout<<"2.Despedirme"<<endl;
+			cout<<"3.salir"<<endl;
+			cout<<"ELIGE UNA OPCION(1,2,3)";
+			break;
+		case 2:
+			cout<<"Chao pescao";
+			break;
+		case 3:
+			cout<<"No me gusta que no me uses :(";
+			break;
+		defaul: //Te comprueba que cin sea correcto y actua si no lo es
+			cout<<"No has elegido ninguna opci�n";
+	}
+		 
+	
+	return 0; //Comprueba que no hay ning�n error 
+	
+}
