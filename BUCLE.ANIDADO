@@ -1,0 +1,14 @@
+//Instrucciones basicas 
+#include<iostream>//Libreria de cabecera
+using namespace std;
+int main(){
+	//Definimos tres variables
+	int n1,n2,n3;
+	cout <<"introduce tres numeros enteros:"; //Equivalente a print
+	cin >> n1 >> n2 >> n3 ; //Equivalente a input
+	if(n1>n2 && n1>n3)
+			cout<<"El mayor es" << n1;	 
+	
+	return 0; //Comprueba que no hay ningun error 
+	
+}
